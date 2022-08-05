@@ -6,8 +6,8 @@ function getDB()
 {
 	$servername = 'localhost';
 	$database = 'teste';
-	$username = 'admin';
-	$password = '441w9cmH7ZBd';
+	$username = 'user';
+	$password = 'password';
 // Create connection
 	$conn = mysqli_connect($servername, $username, $password, $database);
 // Check connection
